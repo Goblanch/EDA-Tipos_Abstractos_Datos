@@ -6,5 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Pila
-add_executable(pila Stack/main.cpp)
+# Stack
+add_executable(Stack Stack/main.cpp)
+
+# Queue
+add_executable(Queue Queue/main.cpp)
