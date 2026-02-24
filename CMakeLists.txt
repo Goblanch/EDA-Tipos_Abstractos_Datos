@@ -11,3 +11,6 @@ add_executable(Stack Stack/main.cpp)
 
 # Queue
 add_executable(Queue Queue/main.cpp)
+
+# Linkedlist
+add_executable(LinkedList LinkedList/main.cpp)
