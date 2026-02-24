@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Pila
-add_executable(pila pila/main.cpp)
+add_executable(pila Stack/main.cpp)
