@@ -25,10 +25,15 @@ EDA-Tipos_Abstractos_Datos/
 │   ├── main.cpp            ← Ejemplo de uso
 │   └── README.md           ← Documentación de la cola
 │
-└── LinkedList/
-    ├── LinkedList.h        ← Implementación de la lista enlazada con template
-    ├── main.cpp            ← Ejemplo de uso
-    └── README.md           ← Documentación de la lista enlazada
+├── LinkedList/
+│   ├── LinkedList.h        ← Implementación de la lista enlazada con template
+│   ├── main.cpp            ← Ejemplo de uso
+│   └── README.md           ← Documentación de la lista enlazada
+│
+└── CircularLinkedList/
+    ├── CircularLinkedList.h ← Implementación de la lista enlazada circular con template
+    ├── main.cpp             ← Ejemplo de uso
+    └── README.md            ← Documentación de la lista enlazada circular
 ```
 
 ---
@@ -69,14 +74,7 @@ En Windows (con MSVC o MinGW) los ejecutables estarán en `build\Debug\` o `buil
 | [Pila (Stack)](./Stack/) | `GenericStack.h` | LIFO |
 | [Cola (Queue)](./Queue/) | `GenericQueue.h` | FIFO |
 | [Lista Enlazada Simple (LinkedList)](./LinkedList/) | `LinkedList.h` | Acceso por índice |
-
----
-
-## Próximos TADs
-
-- [ ] Árbol Binario de Búsqueda (BST)
-- [ ] Cola de prioridad (Priority Queue)
-- [ ] Tabla Hash
+| [Lista Enlazada Circular (CircularLinkedList)](./CircularLinkedList/) | `CircularLinkedList.h` | Acceso por índice, ciclo cerrado |
 
 ---
 
