@@ -17,3 +17,6 @@ add_executable(LinkedList LinkedList/main.cpp)
 
 # CircularLinkedList
 add_executable(CircularLinkedList CircularLinkedList/main.cpp)
+
+# DoublyLinkedList
+add_executable(DoublyLinkedList DoublyLinkedList/main.cpp)
