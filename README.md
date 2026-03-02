@@ -15,6 +15,9 @@ EDA-Tipos_Abstractos_Datos/
 ├── CMakeLists.txt          ← Compilación conjunta con CMake
 ├── README.md               ← Este fichero
 │
+├── Common/
+│   └── Node.h              ← Nodo genérico con shared_ptr (usado por los árboles)
+│
 ├── Stack/
 │   ├── GenericStack.h      ← Implementación de la pila con template
 │   ├── main.cpp            ← Ejemplo de uso
@@ -30,10 +33,25 @@ EDA-Tipos_Abstractos_Datos/
 │   ├── main.cpp            ← Ejemplo de uso
 │   └── README.md           ← Documentación de la lista enlazada
 │
-└── CircularLinkedList/
-    ├── CircularLinkedList.h ← Implementación de la lista enlazada circular con template
-    ├── main.cpp             ← Ejemplo de uso
-    └── README.md            ← Documentación de la lista enlazada circular
+├── DoublyLinkedList/
+│   ├── DoublyLinkedList.h  ← Implementación de la lista doblemente enlazada con template
+│   ├── main.cpp            ← Ejemplo de uso
+│   └── README.md           ← Documentación de la lista doblemente enlazada
+│
+├── CircularLinkedList/
+│   ├── CircularLinkedList.h ← Implementación de la lista enlazada circular con template
+│   ├── main.cpp             ← Ejemplo de uso
+│   └── README.md            ← Documentación de la lista enlazada circular
+│
+├── BinaryTree/
+│   ├── BinaryTree.h        ← Implementación del árbol binario con template
+│   ├── main.cpp            ← Ejemplo de uso
+│   └── README.md           ← Documentación del árbol binario
+│
+└── BinarySearchTree/
+    ├── BinarySearchTree.h  ← Implementación del árbol binario de búsqueda con template
+    ├── main.cpp            ← Ejemplo de uso
+    └── README.md           ← Documentación del árbol binario de búsqueda
 ```
 
 ---
@@ -61,6 +79,8 @@ Después de compilar, los binarios se encuentran dentro de `build/`. Ejemplo:
 ./build/Stack
 ./build/Queue
 ./build/LinkedList
+./build/BinaryTree
+./build/BinarySearchTree
 ```
 
 En Windows (con MSVC o MinGW) los ejecutables estarán en `build\Debug\` o `build\Release\` según la configuración.
@@ -74,7 +94,10 @@ En Windows (con MSVC o MinGW) los ejecutables estarán en `build\Debug\` o `buil
 | [Pila (Stack)](./Stack/) | `GenericStack.h` | LIFO |
 | [Cola (Queue)](./Queue/) | `GenericQueue.h` | FIFO |
 | [Lista Enlazada Simple (LinkedList)](./LinkedList/) | `LinkedList.h` | Acceso por índice |
+| [Lista Doblemente Enlazada (DoublyLinkedList)](./DoublyLinkedList/) | `DoublyLinkedList.h` | Acceso por índice, recorrido bidireccional |
 | [Lista Enlazada Circular (CircularLinkedList)](./CircularLinkedList/) | `CircularLinkedList.h` | Acceso por índice, ciclo cerrado |
+| [Árbol Binario (BinaryTree)](./BinaryTree/) | `BinaryTree.h` | Estructura jerárquica, 4 recorridos |
+| [Árbol Binario de Búsqueda (BinarySearchTree)](./BinarySearchTree/) | `BinarySearchTree.h` | Búsqueda, inserción y eliminación O(log n) |
 
 ---
 
