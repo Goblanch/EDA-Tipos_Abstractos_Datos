@@ -25,7 +25,7 @@ public:
         data_ = newData;
     }
 
-    const std::shared_ptr<Node<T>> getLeft() const {
+    std::shared_ptr<Node<T>> getLeft() const {
         return left;
     }
 
@@ -33,7 +33,7 @@ public:
         left = newLeft;
     }
 
-    const std::shared_ptr<Node<T>> getRight() const {
+    std::shared_ptr<Node<T>> getRight() const {
         return right;
     }
 
@@ -41,7 +41,7 @@ public:
         right = newRight;
     }
 
-    void proccessNode() const {
+    void processNode() const {
         std::cout << data_ << " ";
     }
 };

@@ -30,3 +30,9 @@ add_executable(BinaryTree
         BinaryTree/BinaryTree.h
         Common/Node.h
 )
+
+# BinarySearchTree
+add_executable(BinarySearchTree
+        BinarySearchTree/BinarySearchTree.h
+        BinarySearchTree/main.cpp
+)
