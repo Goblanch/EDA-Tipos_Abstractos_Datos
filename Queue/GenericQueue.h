@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <memory>
 #include <stdexcept>
 
 template <typename T>
@@ -30,7 +31,7 @@ public:
 
     // Añadir elemento al final
     void enqueue(const T& value) {
-        Node* newNode = new Node(value);
+        std::shared_ptr<Node> newNode = std::make_shared<Node>(value);
 
         if (empty()) {
             front_ = back_ = newNode;
@@ -48,9 +49,7 @@ public:
             throw std::underflow_error("Queue is empty");
         }
 
-        Node* temp = front_;
         front_ = front_->next;
-        delete temp;
         --size_;
 
         if (front_ == nullptr) {
@@ -82,7 +81,7 @@ public:
             return;
         }
 
-        Node* current = front_;
+        std::shared_ptr<Node> current = front_;
         std::cout << "Front -> ";
         while (current != nullptr) {
             std::cout << current->data;
@@ -97,20 +96,18 @@ public:
 private:
     struct Node {
         T data;
-        Node* next;
+        std::shared_ptr<Node> next;
 
-        Node(const T& value, Node* nextNode = nullptr) : data(value), next(nextNode) {}
+        Node(const T& value, std::shared_ptr<Node> nextNode = nullptr) : data(value), next(nextNode) {}
     };
 
-    Node* front_;
-    Node* back_;
+    std::shared_ptr<Node> front_;
+    std::shared_ptr<Node> back_;
     std::size_t size_;
 
     void clear() {
         while (front_ != nullptr) {
-            Node* temp = front_;
             front_ = front_->next;
-            delete temp;
         }
         back_ = nullptr;
         size_ = 0;
@@ -121,7 +118,7 @@ private:
         back_ = nullptr;
         size_ = 0;
 
-        Node* current = other.front_;
+        std::shared_ptr<Node> current = other.front_;
         while (current != nullptr) {
             enqueue(current->data);
             current = current->next;
