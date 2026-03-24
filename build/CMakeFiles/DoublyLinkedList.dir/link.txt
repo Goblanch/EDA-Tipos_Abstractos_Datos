@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/DoublyLinkedList.dir/link.d CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.cpp.o -o DoublyLinkedList

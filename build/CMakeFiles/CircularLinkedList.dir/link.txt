@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/CircularLinkedList.dir/link.d CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.cpp.o -o CircularLinkedList

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/Stack.dir/link.d CMakeFiles/Stack.dir/Stack/main.cpp.o -o Stack
