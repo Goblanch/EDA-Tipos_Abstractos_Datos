@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/BinaryTree.dir/link.d CMakeFiles/BinaryTree.dir/BinaryTree/main.cpp.o -o BinaryTree

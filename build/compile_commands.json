@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/Stack.dir/Stack/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Stack/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Stack/main.cpp",
+  "output": "CMakeFiles/Stack.dir/Stack/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/Queue.dir/Queue/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Queue/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Queue/main.cpp",
+  "output": "CMakeFiles/Queue.dir/Queue/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/LinkedList.dir/LinkedList/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/LinkedList/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/LinkedList/main.cpp",
+  "output": "CMakeFiles/LinkedList.dir/LinkedList/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/CircularLinkedList/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/CircularLinkedList/main.cpp",
+  "output": "CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/DoublyLinkedList/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/DoublyLinkedList/main.cpp",
+  "output": "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/BinaryTree.dir/BinaryTree/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/BinaryTree/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/BinaryTree/main.cpp",
+  "output": "CMakeFiles/BinaryTree.dir/BinaryTree/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/Common -O3 -DNDEBUG -std=c++17 -o CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.o -c /home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/BinarySearchTree/main.cpp",
+  "file": "/home/runner/work/EDA-Tipos_Abstractos_Datos/EDA-Tipos_Abstractos_Datos/BinarySearchTree/main.cpp",
+  "output": "CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.o"
+}
+]
